@@ -16,7 +16,7 @@ contract level4Solution is Script {
 
     function run() external {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
-        new IntermediateContract(telephone ,vm.envAddress("MY_ADDRESS"));
+        new IntermediateContract(telephone, vm.envAddress("MY_ADDRESS"));
         // console.log(telephone.owner());
         vm.stopBroadcast();
     }

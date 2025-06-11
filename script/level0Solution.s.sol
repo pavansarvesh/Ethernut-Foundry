@@ -6,8 +6,7 @@ import "forge-std/Script.sol";
 import "forge-std/console.sol";
 
 contract Level0Solution is Script {
-    Instance public instance =
-        Instance(0x8125E66B2965a87F0Bad2cd266075B08d6f90958);
+    Instance public instance = Instance(0x8125E66B2965a87F0Bad2cd266075B08d6f90958);
 
     function run() external {
         string memory password = instance.password();
