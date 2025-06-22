@@ -16,7 +16,9 @@ contract level7Solution is Script {
 
     function run() external {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
-        new ToBeDestructed{value: 100 wei}(payable(0xbd06630eec0B38457abD3c88bF676203d321D6d8));
+        new ToBeDestructed{value: 100 wei}(
+            payable(0xbd06630eec0B38457abD3c88bF676203d321D6d8)
+        );
         vm.stopBroadcast();
     }
 }
