@@ -6,7 +6,8 @@ import {Script} from "forge-std/Script.sol";
 import {console} from "forge-std/console.sol";
 
 contract FalloutSolution is Script {
-    Fallout public fallout = Fallout(0xaaE35bB89dbe3659ecAF7ed5f0967ae747aD92e7);
+    Fallout public fallout =
+        Fallout(0xaaE35bB89dbe3659ecAF7ed5f0967ae747aD92e7);
 
     function run() external {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));

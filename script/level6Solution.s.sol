@@ -6,7 +6,8 @@ import {console} from "forge-std/console.sol";
 import {Delegation, Delegate} from "../src/level6Delegation.sol";
 
 contract Level6Solution is Script {
-    Delegation delegation = Delegation(0x09e5b7b3bb56082E8A5CB7b7F67cE82E195C753a);
+    Delegation delegation =
+        Delegation(0x09e5b7b3bb56082E8A5CB7b7F67cE82E195C753a);
     Delegate delegate = Delegate(0x09e5b7b3bb56082E8A5CB7b7F67cE82E195C753a);
 
     function run() external {
