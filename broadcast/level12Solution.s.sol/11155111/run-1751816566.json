@@ -1,0 +1,49 @@
+{
+  "transactions": [
+    {
+      "hash": "0x2e861742756c917391f2e14db7bfb39b62e5519e45d009d02b8049e0611e2cba",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x49466f134fa9ce6e5a62723f1ad1afce104ece9f",
+      "function": "unlock(bytes16)",
+      "arguments": [
+        "0xf7e3a6115b02cb8f9c38fcf65b9d4ad2"
+      ],
+      "transaction": {
+        "from": "0x980e79020c09d667c08b717114156bf9a53504a8",
+        "to": "0x49466f134fa9ce6e5a62723f1ad1afce104ece9f",
+        "gas": "0x8940",
+        "value": "0x0",
+        "input": "0xe1afb08cf7e3a6115b02cb8f9c38fcf65b9d4ad200000000000000000000000000000000",
+        "nonce": "0x59",
+        "chainId": "0xaa36a7"
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "status": "0x1",
+      "cumulativeGasUsed": "0x122d9f5",
+      "logs": [],
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "type": "0x2",
+      "transactionHash": "0x2e861742756c917391f2e14db7bfb39b62e5519e45d009d02b8049e0611e2cba",
+      "transactionIndex": "0x136",
+      "blockHash": "0xc8ea1375edd96c00695cdff3d3c556542c73e064a86b2b38ef46031db0e1dbfa",
+      "blockNumber": "0x84d701",
+      "gasUsed": "0x5dd9",
+      "effectiveGasPrice": "0x1d035747",
+      "from": "0x980e79020c09d667c08b717114156bf9a53504a8",
+      "to": "0x49466f134fa9ce6e5a62723f1ad1afce104ece9f",
+      "contractAddress": null
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1751816566,
+  "chain": 11155111,
+  "commit": "7289be8"
+}
